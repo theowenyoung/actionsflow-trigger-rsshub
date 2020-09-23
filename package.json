@@ -1,0 +1,39 @@
+{
+  "name": "@actionsflow/trigger-rsshub",
+  "version": "0.0.1",
+  "description": "Actionsflow trigger for rsshub",
+  "keywords": [
+    "rsshub",
+    "actionsflow",
+    "trigger"
+  ],
+  "author": "Owen Young <theowenyoung@gmail.com>",
+  "homepage": "https://github.com/theowenyoung/actionsflow-trigger-rsshub",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theowenyoung/actionsflow-trigger-rsshub.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/theowenyoung/actionsflow-trigger-rsshub/issues"
+  },
+  "devDependencies": {
+    "actionsflow-core": "^0.1.24",
+    "eslint": "^7.9.0",
+    "eslint-plugin-jest": "^24.0.2",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "rsshub": "^1.0.0-master.b490664",
+    "supertest": "^4.0.2"
+  }
+}
