@@ -38,7 +38,7 @@ on:
 
 - `rsshubConfig`, optional, `object`, rsshub init config, for more config settings, please see [here](https://docs.rsshub.app/install/#pei-zhi)
 
-> You can use [General Config for Actionsflow Trigger](../workflow.md#ontrigger_nameconfig) for more customization.
+> You can use [General Config for Actionsflow Trigger](https://actionsflow.github.io/docs/workflow/#ontriggerconfig) for more customization.
 
 ## Outputs
 

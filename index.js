@@ -1,7 +1,7 @@
 const rsshub = require("./rsshub");
 const config = require("rsshub/lib/config").value;
 const run = require("./run");
-module.exports = class Example {
+module.exports = class Rsshub {
   constructor({ helpers, options }) {
     this.options = options;
     this.helpers = helpers;
