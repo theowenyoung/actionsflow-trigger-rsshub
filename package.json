@@ -13,6 +13,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "release": "release-it",
     "lint": "eslint . --ext .js"
   },
   "repository": {
