@@ -30,9 +30,25 @@ on:
       limit: 15
 ```
 
+Or, you can pass them separately:
+
+```yaml
+on:
+  rsshub:
+    path:
+      - path: /smzdm/keyword/女装
+        query:
+          param1: value
+      - path: /36kr/news/latest
+        query:
+          param1: value
+    config:
+      limit: 15
+```
+
 ## Options
 
-- `path`, required, `string` or `string[]`, when `path` is `string[]`, then multiple rsshub feeds can trigger the action. For path value, you should check at [rsshub](https://docs.rsshub.app/), all rsshub routes are supported.
+- `path`, required, `string` or `string[]` or `object[]`, when `path` is `string[]`, then multiple rsshub feeds can trigger the action. For path value, you should check at [rsshub](https://docs.rsshub.app/), all rsshub routes are supported.
 
 - `globalQuery`, optional, `object`, rsshub global query, it will set to every rsshub request search. For example: `{"limit":10,"filter":"test"}`, for more query params, please see [here](https://docs.rsshub.app/parameter.html)
 
