@@ -32,7 +32,7 @@
     "eslint-plugin-jest": "^24.0.2",
     "jest": "^26.4.2",
     "prettier": "^2.1.2",
-    "release-it": "^14.0.3"
+    "release-it": "^14.5.0"
   },
   "dependencies": {
     "rsshub": "github:DIYgod/RSSHub",
