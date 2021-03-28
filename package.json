@@ -1,6 +1,6 @@
 {
   "name": "@actionsflow/trigger-rsshub",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Actionsflow trigger for rsshub",
   "keywords": [
     "rsshub",
